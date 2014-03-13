@@ -29,6 +29,7 @@
 		wp_enqueue_script( 'unslider', get_template_directory_uri() . '/js/unslider.min.js' ); */
 		wp_enqueue_style( 'theme', get_stylesheet_uri() );
 		wp_enqueue_style( 'fontawesome', get_template_directory_uri() . '/css/font-awesome.min.css' );
+		wp_enqueue_style( 'normalize', get_template_directory_uri() . '/css/normalize.css' );
 	}
 	add_action('wp_head', 'add_tw_card_support');
 	add_action('wp_head', 'add_meta_tags');
